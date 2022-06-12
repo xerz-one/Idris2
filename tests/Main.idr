@@ -169,7 +169,7 @@ idrisTestsBuiltin = MkTestPool "Builtin types and functions" [] Nothing
 idrisTestsEvaluator : TestPool
 idrisTestsEvaluator = MkTestPool "Evaluation" [] Nothing
       [ -- Evaluator
-       "evaluator001", "evaluator002", "evaluator003",
+       "evaluator001", "evaluator002", "evaluator003", "evaluator004",
        -- Miscellaneous REPL
        "interpreter001", "interpreter002", "interpreter003", "interpreter004",
        "interpreter005", "interpreter006", "interpreter007", "interpreter008"]
@@ -219,7 +219,7 @@ idrisTestsReflection = MkTestPool "Quotation and Reflection" [] Nothing
       ["reflection001", "reflection002", "reflection003", "reflection004",
        "reflection005", "reflection006", "reflection007", "reflection008",
        "reflection009", "reflection010", "reflection011", "reflection012",
-       "reflection013", "reflection014"
+       "reflection013", "reflection014", "reflection015"
       ]
 
 idrisTestsWith : TestPool
